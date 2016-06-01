@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\CMainForm">
+      <UniqueIdentifier>{1fcc3d50-cae7-4b90-ae38-b540986ab12f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CFunctions">
+      <UniqueIdentifier>{14fc6093-c8b5-4a83-bab3-546dec1b948d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BBDCLogin">
+      <UniqueIdentifier>{e597ebfa-5287-4277-9daf-b65dcfe058da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UIID">
+      <UniqueIdentifier>{82a42129-16fc-4cd3-9902-d452362794b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CMonitor">
+      <UniqueIdentifier>{c4264c10-e54d-45e0-b691-b3fafba0f1ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CFunctions.cpp">
+      <Filter>Header Files\CFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="BBDCLogin.cpp">
+      <Filter>Header Files\BBDCLogin</Filter>
+    </ClCompile>
+    <ClCompile Include="UIID.cpp">
+      <Filter>Header Files\UIID</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainForm.cpp">
+      <Filter>Header Files\CMainForm</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonitor.cpp">
+      <Filter>Header Files\CMonitor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CFunctions.h">
+      <Filter>Header Files\CFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="BBDCLogin.h">
+      <Filter>Header Files\BBDCLogin</Filter>
+    </ClInclude>
+    <ClInclude Include="CMainForm.h">
+      <Filter>Header Files\CMainForm</Filter>
+    </ClInclude>
+    <ClInclude Include="UIID.h">
+      <Filter>Header Files\UIID</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonitor.h">
+      <Filter>Header Files\CMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BBDCChecker.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ico.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

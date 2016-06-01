@@ -1,0 +1,20 @@
+<Logs>
+		<Log>
+			<Date>2/2/15</Date>
+			<DayOfWeek>Tues</DayOfWeek>
+			<lesson>
+				<StartTime>07 30</StartTime>
+				<EndTime>09 30</EndTime>
+				<Session>5</Session>
+			</lesson>
+			<lesson>
+				<StartTime>09 30</StartTime>
+				<EndTime>10 30</EndTime>
+				<Session>6</Session>
+			</lesson>
+		</Log>
+		<Log>
+			<Date>3/2/15</Date>
+			<DayOfWeek>Web</DayOfWeek>
+		</Log>
+</Logs>
